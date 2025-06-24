@@ -18,7 +18,7 @@ public class CheckCSVSorted {
                 long current = Long.parseLong(parts[0]);
 
                 if (current < prev) {
-                    System.out.println("❌ Not sorted at line " + lineNumber + ": " + current + " < " + prev);
+                    System.out.println("Not sorted at line " + lineNumber + ": " + current + " < " + prev);
                     return;
                 }
 
